@@ -128,7 +128,7 @@ Add up all the litres of water, add in some extra for the piping and an expansio
 
 Set the **heat_max_power** and **heat_min_power** to the minimum and maximum power output of your boiler/heat-pump in watts.
 
-Set **heating_cop** to the nominal COP of your system. For a gas boiler use 1.0 (as the effiency will be based on flow temperature) or for a heat pump set it to the best value which is likely around 4.0 (it will be scaled down for cold weather).
+Set **heating_cop** to the nominal COP of your system. For a gas boiler use the boiler efficiency as a starting point eg 0.9 for a boiler which is 90% efficient (the overall system effiency however will be based on flow temperature, so a 90% efficient boiler running at high flow temperatures will not achieve this efficiency) or for a heat pump set it to the best value which is likely around 4.0 (it will be scaled down for cold weather).
 
 Set **flow_temp** To the target flow temperature of your system, either via a sensor or as a fixed value. E.g. gas boilers are often set to say 60 or 70 degrees while heat pumps are much lower e.g. 30 or 40.
 
